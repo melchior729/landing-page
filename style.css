@@ -71,7 +71,8 @@ body {
 }
 
 button {
-  background-color: #3882F6;
+  margin-top: 5px;
+  background-color: #3882f6;
   border: none;
   color: white;
   font-weight: bold;
@@ -94,13 +95,44 @@ button {
 
 /* */
 
-.testimonial {
-
+.info__title {
+  margin: 2vh;
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+  color: #1f2937;
 }
 
-.cta {
-
+.info__entries {
+  margin: 4vh;
+  display: flex;
+  flex-direction: row;
+  gap: 5vw;
 }
+
+.info__entry {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.info__image-box {
+  flex: 1;
+  width: fit-content;
+}
+
+.info__image {
+  width: 180px;
+  height: 180px;
+  border-radius: 10px;
+}
+
+.info__description {
+  margin-top: 1vh;
+  color: grey;
+}
+
 
 .footer {
   padding: 40px;
